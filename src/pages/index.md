@@ -3,20 +3,24 @@ title: Home
 sections:
   - type: section_hero
     section_id: hero
-    title: This Is A Big Hero Headline
+    title: Step Out. Speak Up.
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
-    image: images/hero.png
+      We are uplifting youth voices to change the conversation around mental health.
+    image: images/psypherlogo.png
     actions:
-      - label: Learn More
+      - label: Watch Video
         url: /features
+
   - type: section_features
     section_id: features
-    title: Features
+    title: 01 – Who We Are
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Psypher facilitates two-part workshops that engage
+      students in youth-centered discussions about wellness
+      and provide an expressive outlet through urban dance.
+      Our dynamic team of youth advocates, mental health professionals, and urban dancers create workshops around
+      topics that are informed by local youth, thus equipping them with relevant knowledge for navigating and
+      promoting their well-being. 
     bg: gray
     featureslist:
       - title: The Best Feature of Your Services
@@ -46,6 +50,7 @@ sections:
         actions:
           - label: Learn More
             url: /features
+
   - type: section_reviews
     section_id: reviews
     title: Testimonials
@@ -70,6 +75,7 @@ sections:
         content: >-
           Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
   - type: section_cta
     section_id: call-to-action
     title: This Is Call To Action Block!
@@ -77,10 +83,12 @@ sections:
     actions:
       - label: Get Started
         url: /signup
+
   - type: section_posts
     section_id: recent-posts
     title: Latest Posts
     bg: gray
+    
 menus:
   main:
     title: Home

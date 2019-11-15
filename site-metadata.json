@@ -3,7 +3,7 @@
     "palette": "blue",
     "header": {
         "title": "Azimuth",
-        "logo_img": "images/logo.png",
+        "logo_img": "images/psypherlogo.png",
         "has_nav": true,
         "menu": {
             "actions": [
@@ -15,7 +15,7 @@
         }
     },
     "footer": {
-        "logo_img": "images/logo_alt.png",
+        "logo_img": "images/psypherlogo.png",
         "tagline": "SaaS theme by Stackbit",
         "has_nav": true,
         "nav_title": "Company",
