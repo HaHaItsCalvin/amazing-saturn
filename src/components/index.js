@@ -1,6 +1,6 @@
 import CtaButtons from './CtaButtons';
 import Footer from './Footer';
-import Header from './Header';
+import Navbar from './Navbar';
 import SectionContact from './SectionContact';
 import SectionContent from './SectionContent';
 import SectionCta from './SectionCta';
@@ -17,7 +17,7 @@ import Layout from './Layout';
 export {
     CtaButtons,
     Footer,
-    Header,
+    Navbar,
     SectionContact,
     SectionContent,
     SectionCta,
@@ -35,7 +35,7 @@ export {
 export default {
     CtaButtons,
     Footer,
-    Header,
+    Navbar,
     SectionContact,
     SectionContent,
     SectionCta,

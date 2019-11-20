@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet';
 import _ from 'lodash';
 
 import {safePrefix} from '../utils';
-import Header from './Header';
+import Navbar from './Navbar';
 import Footer from './Footer';
 
 export default class Body extends React.Component {
@@ -19,7 +19,7 @@ export default class Body extends React.Component {
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
                 </Helmet>
                 <div id="page" className={'site palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
-                  <Header {...this.props} />
+                    <Navbar {...this.props} />
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
