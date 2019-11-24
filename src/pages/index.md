@@ -20,7 +20,7 @@ sections:
       to reach high school and college students throughout LA County. We have hosted over 60 workshops 
       serving more than 1,300 youth in our efforts to create a standard for wellness education that 
       can be introduced to students nationwide.
-    bg: gray
+    bg: black
     featureslist:
       - title: 01 – Who We Are
         content: >-
@@ -34,10 +34,10 @@ sections:
         actions:
           - label: Learn More
             url: /features
-      - title: Matt Origin Story Description
+      - title: Matt’s Story
         content: >-
-          Learn how Matt’s journey with the mental health system inspired 
-          him to create Psypher’s community-based wellness program. 
+          Psypher facilitates two-part workshops that engage students in youth-centered discussions 
+          about wellness and provide an expressive outlet through urban dance. 
         image: images/psypherlogo.png
         actions:
           - label: Learn More
@@ -63,28 +63,48 @@ sections:
 
   - type: section_reviews
     section_id: reviews
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
-    bg: white
+    title: 03 - Testimonials
+    bg: black
     reviews:
-      - author: John Doe
+      - author: Grace Zhu 
+        author_profession: Director of Zero Below
         avatar: images/review1.jpg
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
+          It brings together something many people struggle with alone and 
+          something that brings people together, so maybe the combination can help get
+          people more comfortable with the idea that they don’t have to struggle 
+          alone with any mental health concerns they may be facing.
+      - author: David Slaney
+        author_profession: Director of Zero Below
         avatar: images/review2.jpg
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Richard Roe
-        avatar: images/review3.jpg
+          My first experience with the program was fantastic.
+          In the dance industry, we are constantly judging,
+          evaluating, & analyzing our every move, so it was
+          nice to sit down to talk about these everyday things
+          that affect us and our mental health.
+      - author: Alexia Diaz
+        author_profession: Psypher Participant
+        avatar: images/review1.jpg
         content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          Sometimes there is stuff that you feel is burdening
+          you, and it’s hard to put it into words. Sometimes
+          releasing it through a physical medium, through
+          your body, lets you release that without having to
+          say anything. That’s a cathartic experience.
+      - author: Grace Zhu 
+        author_profession: Director of Zero Below
+        avatar: images/review1.jpg
+        content: >-
+          It brings together something many people struggle with alone and 
+          something that brings people together, so maybe the combination can help get
+          people more comfortable with the idea that they don’t have to struggle 
+          alone with any mental health concerns they may be facing.
+
+  - type: section_posts
+    section_id: recent-posts
+    title: Latest Posts
+    bg: black
 
   - type: section_cta
     section_id: call-to-action
@@ -93,12 +113,6 @@ sections:
     actions:
       - label: Get Started
         url: /signup
-
-  - type: section_posts
-    section_id: recent-posts
-    title: Latest Posts
-    bg: gray
-    
 menus:
   main:
     title: Home
