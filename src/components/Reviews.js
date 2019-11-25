@@ -9,12 +9,19 @@ export default class Review extends React.Component {
         this.state = {
             showImage: true,
         };
-        this.handleHover = this.handleHover.bind(this);
+        this.onMouseOver = this.onMouseOver.bind(this);
+        this.onMouseOut = this.onMouseOut.bind(this);
     }
 
-    handleHover() {
+    onMouseOver() {
         this.setState(state => ({
             showImage: false,
+        }));
+    }
+
+    onMouseOut() {
+        this.setState(state => ({
+            showImage: true,
         }));
     }
 
@@ -40,7 +47,7 @@ export default class Review extends React.Component {
         </div>
 
         return (
-            <div className="cell review" onMouseOver={this.handleHover}>
+            <div className="cell review" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut}>
                     {this.state.showImage ?
                         image : backgroundText
                     }

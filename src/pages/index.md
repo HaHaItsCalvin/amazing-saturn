@@ -3,11 +3,12 @@ title: Home
 sections:
   - type: section_hero
     section_id: hero
-    title: Step Out. Speak Up.
+    title1: STEP OUT.
+    title2: SPEAK UP.
     content: >-
       We are uplifting youth voices to change the conversation around mental health.
     image: images/psypherlogo.png
-    video: videos/psypherlogo.png
+    video: videos/psyphersizzle.mp4
     actions:
       - label: Watch Video
         url: /features
@@ -20,9 +21,10 @@ sections:
       to reach high school and college students throughout LA County. We have hosted over 60 workshops 
       serving more than 1,300 youth in our efforts to create a standard for wellness education that 
       can be introduced to students nationwide.
-    bg: black
+    bg: white
     featureslist:
-      - title: 01 – Who We Are
+      - title: "- Who We Are"
+        title-index: "01"
         content: >-
           Psypher facilitates two-part workshops that engage
           students in youth-centered discussions about wellness
@@ -42,7 +44,8 @@ sections:
         actions:
           - label: Learn More
             url: /features
-      - title: 02 - How it Works
+      - title: " - How it Works"
+        title-index: "02"
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
@@ -51,7 +54,8 @@ sections:
         actions:
           - label: Learn More
             url: /features
-      - title: 03 - Testimonials
+      - title: " - Testimonials"
+        title-index: "03"
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
@@ -63,7 +67,7 @@ sections:
 
   - type: section_reviews
     section_id: reviews
-    title: 03 - Testimonials
+    title: "03 - Testimonials"
     bg: black
     reviews:
       - author: Grace Zhu 
@@ -104,7 +108,7 @@ sections:
   - type: section_posts
     section_id: recent-posts
     title: Latest Posts
-    bg: black
+    bg: white
 
   - type: section_cta
     section_id: call-to-action

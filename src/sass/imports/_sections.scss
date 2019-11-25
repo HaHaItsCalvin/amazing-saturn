@@ -11,6 +11,31 @@
   }
 }
 
+.block-title-white {
+  font-size: 4rem;
+  margin: 0 0 1.33333rem;
+  color:white;
+
+  &:last-child {
+    margin-bottom: 1.66667rem;
+  }
+}
+
+.block-subttitle-white {
+  font-size: 1.22222rem;
+  margin: 0 0 1.33333rem;
+  color:white;
+
+  &:last-child {
+    margin-bottom: 1.66667rem;
+  }
+}
+
+.block-title-index {
+  font-size: 2.44444rem;
+  color: purple;
+}
+
 .block-header {
   margin-bottom: 2rem;
   text-align: center;
@@ -44,12 +69,33 @@
 .hero-block,
 .text-block,
 .block-item {
+  height: 70%;
   .cell {
     text-align: center;
   }
 
   .underline:after {
     display: none;
+  }
+
+  .sizzle-video{
+    position: absolute;
+    padding-top: 2.6666em;
+    height:70vh;
+    right:0;
+    width: 50%;
+    opacity:0.5;
+  }
+
+  .hero-content{
+    height:70vh;
+    padding-top: 2.6666em;
+    left: 20%;
+  }
+
+  .hero-content-spacer{
+    opacity:0;
+    left:30%;
   }
 }
 
@@ -180,6 +226,7 @@
   margin: 0 auto 1.66667rem;
   max-width: 488px;
   padding: 0;
+  background: #000000;
 }
 
 .review-inside {
@@ -238,6 +285,13 @@
 
 @media only screen and (min-width: 741px) {
   .reviews-block {
+    background: #000000;
+    .block-title{
+      font-size: 3.5rem;
+      margin-bottom: 2.5rem;
+      color: #fff;
+    }
+
     .grid {
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -260,7 +314,7 @@
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
-      margin: 0 0 1.66667em;
+      margin: 0 1.66667em 1.66667em;
 
 
       &:first-child:nth-last-child(4),
@@ -538,6 +592,15 @@
 .block {
   &.bg-white {
     background: #fff;
+
+    .post-card-inside,
+    .review-inside,
+    .plan-inside {
+      box-shadow: 0 3px 10px 0 rgba(_palette(primary),.15);
+    }
+  }
+  &.bg-black {
+    background: #000000;
 
     .post-card-inside,
     .review-inside,

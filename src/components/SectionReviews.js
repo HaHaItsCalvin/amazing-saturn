@@ -7,7 +7,7 @@ import { htmlToReact } from '../utils';
 export default class SectionReviews extends React.Component {
   render() {
     return (
-      <section id={_.get(this.props, 'section.section_id')} className={'block reviews-block bg-' + _.get(this.props, 'section.bg') + ' outer'}>
+      <section id={_.get(this.props, 'section.section_id')} className={'block reviews-block bg-' + _.get(this.props, 'section.bg') + " outer"}>
         <div className="block-header inner-small">
           {_.get(this.props, 'section.title') &&
             <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
