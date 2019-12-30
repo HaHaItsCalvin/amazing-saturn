@@ -1,9 +1,9 @@
 {
     "links": [
         {
-            "type": "twitter",
-            "title": "Twitter",
-            "url": "https://twitter.com/"
+            "type": "facebook",
+            "title": "Facebook",
+            "url": "https://facebook.com/"
         },
         {
             "type": "instagram",
@@ -11,9 +11,14 @@
             "url": "https://www.instagram.com/"
         },
         {
-            "type": "linkedin",
-            "title": "LinkedIn",
-            "url": "https://www.linkedin.com/"
+            "type": "youtube",
+            "title": "Youtube",
+            "url": "https://www.youtube.com/"
+        },
+        {
+            "type": "email",
+            "title": "Email",
+            "url": "https://www.gmail.com/"
         }
     ]
 }

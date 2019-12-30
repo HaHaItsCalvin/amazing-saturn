@@ -3,13 +3,28 @@ import _ from 'lodash';
 
 import { Link, safePrefix } from '../utils';
 
+const fixedNavbar = {
+    position: 'fixed',
+    width: "100%",
+    "box-shadow": 'none',
+    "padding-top": "2em",
+    "padding-left": "0.83333rem",
+    "padding-right": "0.83333rem",
+    "z-index": 9999,
+};
+
+const navBar = {
+    background: "transparent",
+    ...fixedNavbar,
+};
+
 export default class Navbar extends React.Component {
     render() {
         return (
-            <header id="masthead" className="site-header outer">
-                <div className="inner">
+            <header id="masthead" style={navBar}>
+                <div className="inner" >
                     <div className="site-header-inside">
-                        <div className="site-branding">
+                        <div className="site-branding" >
                             {_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img') &&
                                 <p className="site-logo">
                                     <Link to={safePrefix('/')}>

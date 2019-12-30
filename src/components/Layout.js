@@ -5,6 +5,12 @@ import _ from 'lodash';
 import {safePrefix} from '../utils';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import SocialMediaBar from './SocialMediaBar';
+import LeftPsypherText from './LeftPsypherText';
+
+const navbarBackground = {
+    background: 'black',
+};
 
 export default class Body extends React.Component {
     render() {
@@ -19,7 +25,11 @@ export default class Body extends React.Component {
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
                 </Helmet>
                 <div id="page" className={'site palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
-                    <Navbar {...this.props} />
+                    <div style={navbarBackground}>
+                        <Navbar {...this.props} />
+                    </div>
+                    <SocialMediaBar {...this.props} />
+                    <LeftPsypherText {...this.props} />
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>

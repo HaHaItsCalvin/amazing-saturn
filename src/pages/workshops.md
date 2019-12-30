@@ -7,7 +7,7 @@ img_path: images/about.jpg
 menus:
   main:
     title: Workshops
-    weight: 1
+    weight: 2
 template: page
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus tortor pretium ligula, eu malesuada tortor eros dapibus mi. Proin laoreet efficitur sussus nulla. In dolor dui, placerat non finibus sit amet, venenatis pretium tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
