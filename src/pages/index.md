@@ -6,7 +6,7 @@ sections:
     title1: STEP OUT.
     title2: SPEAK UP.
     content: >-
-      We are uplifting youth voices to change the conversation around mental health.
+      We are changing the conversation around mental health by uplifting youth voices.
     image: images/psypherlogo.png
     video: videos/psyphersizzle.mp4
     actions:
