@@ -1,8 +1,12 @@
 import React from 'react';
 import _ from 'lodash';
-import Video from './Video';
+import psypherSizzle from '../../public/videos/psypherSizzle.mp4';
 
 import { safePrefix, markdownify, Link } from '../utils';
+
+const buttonStyle = {
+  color: 'white',
+};
 
 export default class SectionHero extends React.Component {
   render() {
@@ -11,6 +15,9 @@ export default class SectionHero extends React.Component {
         <div className="inner">
           <div className="grid">
             {/* <Video className="block hero-block sizzle-video"/> */}
+            <video className="block hero-block sizzle-video">
+              <source src={psypherSizzle} type='video/mp4' />
+            </video>
             <img src={_.get(this.props, 'section.image')} className="block hero-block sizzle-video" />
             
             <div><img src={_.get(this.props, 'section.image')} className="block hero-block hero-content-spacer" /></div>
@@ -25,7 +32,7 @@ export default class SectionHero extends React.Component {
               {_.get(this.props, 'section.actions') &&
                 <p className="block-buttons">
                   {_.map(_.get(this.props, 'section.actions'), (action, action_idx) => (
-                    <Link key={action_idx} to={safePrefix(_.get(action, 'url'))} className="button white large">{_.get(action, 'label')}</Link>
+                    <Link key={action_idx} to={safePrefix(_.get(action, 'url'))} style={buttonStyle}>{_.get(action, 'label')}</Link>
                   ))}
                 </p>
               }
