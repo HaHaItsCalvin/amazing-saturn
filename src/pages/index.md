@@ -34,16 +34,7 @@ sections:
           and provide an 
           <span style="color: purple;">expressive outlet through urban dance.</span>
           Our dynamic team of youth advocates, mental health professionals, and urban dancers create workshops around
-          topics that are informed by local youth, thus equipping them with relevant knowledge for navigating and
-          promoting their well-being. 
-        image: images/psypherlogo.png
-        actions:
-          - label: Learn More
-            url: /features
-      - title: Matt’s Story
-        content: >-
-          Psypher facilitates two-part workshops that engage students in youth-centered discussions 
-          about wellness and provide an expressive outlet through urban dance. 
+          topics that are informed by local youth. 
         image: images/psypherlogo.png
         actions:
           - label: Learn More
@@ -68,7 +59,14 @@ sections:
         actions:
           - label: Learn More
             url: /features
-
+      - title: Matt’s Story
+        content: >-
+          Psypher facilitates two-part workshops that engage students in youth-centered discussions 
+          about wellness and provide an expressive outlet through urban dance. 
+        image: images/psypherlogo.png
+        actions:
+          - label: Learn More
+            url: /features
   - type: section_reviews
     section_id: reviews
     title: "03 - Testimonials"

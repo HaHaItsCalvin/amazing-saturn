@@ -20,13 +20,10 @@ const titleIndex = {
 };
 const Text = styled.p`
   padding-left: 30%;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: normal;
   color: black;
 `;
-const specialStyles = {
-  specialtext: "SpecialText",
-};
 
 export default class SectionFeatures extends React.Component {
   render() {
@@ -64,14 +61,12 @@ export default class SectionFeatures extends React.Component {
                       <span style={titleIndex}>{_.get(feature, 'title-index')}</span>
                       {_.get(feature, 'title')}
                     </Title>
-
-                    <div className="block-copy">
-                      {markdownify(_.get(feature, 'content'), specialStyles)}
-                    </div>
-
-                    {_.get(feature, 'actions') &&
+                  {_.get(feature, 'content2') ?
+                    <Text> {markdownify(_.get(feature, 'content'))} </Text> : <Text> {markdownify(_.get(feature, 'content'))} </Text>
+                  }
+                    {/* {_.get(feature, 'actions') &&
                       <CtaButtons {...this.props} actions={_.get(feature, 'actions')} />
-                    }
+                    } */}
                     
                   </div>
                 </div>
