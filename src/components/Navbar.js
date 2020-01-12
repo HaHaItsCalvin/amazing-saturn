@@ -7,7 +7,7 @@ const fixedNavbar = {
     position: 'fixed',
     width: "100%",
     "box-shadow": 'none',
-    "padding-top": "2em",
+    "padding-top": "1em",
     "padding-left": "0.83333rem",
     "padding-right": "0.83333rem",
     "z-index": 9999,
