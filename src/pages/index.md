@@ -15,7 +15,8 @@ sections:
 
   - type: section_features
     section_id: features
-    title: Our Story 
+    title-index: "01"
+    title:  " - Our Story"
     subtitle: >-
       What started as a student organization at UCLA in 2017 has evolved into a nonprofit that is working 
       to reach high school and college students throughout LA County. We have hosted over 60 workshops 
@@ -24,11 +25,14 @@ sections:
     bg: white
     featureslist:
       - title: "- Who We Are"
-        title-index: "01"
+        title-index: "02"
         content: >-
-          Psypher facilitates two-part workshops that engage
-          students in youth-centered discussions about wellness
-          and provide an expressive outlet through urban dance.
+          Psypher facilitates 
+          <span style="color: purple;"> two-part workshops</span>
+          that engage students in 
+          <span style="color: purple;"> youth-centered discussions about wellness </span>
+          and provide an 
+          <span style="color: purple;">expressive outlet through urban dance.</span>
           Our dynamic team of youth advocates, mental health professionals, and urban dancers create workshops around
           topics that are informed by local youth, thus equipping them with relevant knowledge for navigating and
           promoting their well-being. 
@@ -45,7 +49,7 @@ sections:
           - label: Learn More
             url: /features
       - title: " - How it Works"
-        title-index: "02"
+        title-index: "03"
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
@@ -55,7 +59,7 @@ sections:
           - label: Learn More
             url: /features
       - title: " - Testimonials"
-        title-index: "03"
+        title-index: "04"
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit

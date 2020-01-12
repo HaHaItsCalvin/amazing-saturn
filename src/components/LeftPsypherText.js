@@ -18,7 +18,7 @@ const sideText = {
     ...fixedPosition,
     ...textRotation,
     color: "white",
-    "letter-spacing": "0.2em"
+    letterSpacing: "0.2em"
 };
 
 export default class Navbar extends React.Component {

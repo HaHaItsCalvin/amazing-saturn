@@ -1,44 +1,78 @@
 import React from 'react';
 import _ from 'lodash';
+import styled from 'styled-components';
 
 import { htmlToReact, safePrefix, markdownify } from '../utils';
 import CtaButtons from './CtaButtons';
 
+const OurStory = styled.div`
+  margin-top: 15vh;
+  margin-left: 10vh;
+  margin-bottom: 15vh;
+  font-weight: 15px;
+`;
+
+const Title = styled.h1`
+  font-size: 5vw;
+`;
+const titleIndex = {
+  color: "purple",
+};
+const Text = styled.p`
+  padding-left: 30%;
+  font-size: 2vw;
+  font-weight: normal;
+  color: black;
+`;
+const specialStyles = {
+  specialtext: "SpecialText",
+};
+
 export default class SectionFeatures extends React.Component {
   render() {
+    const specialPhrases = [
+      'two-part workshops',
+      "youth-centered discussions about wellness",
+      "expressive outlet through urban dance."
+    ];
+
     return (
       <section id={_.get(this.props, 'section.section_id')} className={'block features-block bg-' + _.get(this.props, 'section.bg') + ' outer'}>
-        <div className="block-header inner-small">
+        <OurStory className = "inner">
+
           {_.get(this.props, 'section.title') &&
-            <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
+            <Title>
+              <span style= {titleIndex}> {_.get(this.props, 'section.title-index')} </span>
+              {_.get(this.props, 'section.title')}
+            </Title>
           }
+
           {_.get(this.props, 'section.subtitle') &&
-            <p className="block-subtitle">
+            <Text>
               {htmlToReact(_.get(this.props, 'section.subtitle'))}
-            </p>
+          </Text>
           }
-        </div>
+        </OurStory>
         
         {_.get(this.props, 'section.featureslist') &&
           <div className="inner">
-            {_.map(_.get(this.props, 'section.featureslist'), (feature, feature_idx) => (
-              <div key={feature_idx} className="block-item">
+          {_.map(_.get(this.props, 'section.featureslist'), (feature, feature_idx) => (
+              <div key={feature_idx} >
                 <div className="grid">
-                  {_.get(feature, 'image') &&
-                    <div className="cell block-preview">
-                      <img src={safePrefix(_.get(feature, 'image'))} alt={_.get(feature, 'title')} />
-                    </div>
-                  }
                   <div className="cell block-content">
-                    <h3 className="block-title underline">
-                      <span className="block-title-index">{_.get(feature, 'title-index')}</span> {_.get(feature, 'title')}
-                    </h3>
+                    <Title>
+                      <span style={titleIndex}>{_.get(feature, 'title-index')}</span>
+                      {_.get(feature, 'title')}
+                    </Title>
+
                     <div className="block-copy">
-                      {markdownify(_.get(feature, 'content'))}
+                      {markdownify(_.get(feature, 'content'), specialStyles)}
                     </div>
+
                     {_.get(feature, 'actions') &&
                       <CtaButtons {...this.props} actions={_.get(feature, 'actions')} />
                     }
+                    
                   </div>
                 </div>
               </div>
