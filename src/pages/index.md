@@ -16,8 +16,8 @@ sections:
   - type: section_features
     section_id: features
     title-index: "01"
-    title:  " - Our Story"
-    subtitle: >-
+    title: " - Our Story"
+    content: >-
       What started as a student organization at UCLA in 2017 has evolved into a nonprofit that is working 
       to reach high school and college students throughout LA County. We have hosted over 60 workshops 
       serving more than 1,300 youth in our efforts to create a standard for wellness education that 
@@ -39,37 +39,39 @@ sections:
         actions:
           - label: Learn More
             url: /features
+
+      - subtitle2: "Matt's Story"
+        use-offset-title: true
+        use-bisected-grid: true
+        use-large-subtitle-2: "value"
+        background-color: "black"
+        video1: "https://www.youtube.com/embed/a6a05slzqNs"
+        content2: >-
+          Learn how Matt’s journey with the mental
+          health system inspired him to create Psypher’s community-based wellness program
+
       - title: " - How it Works"
+        use-bisected-grid: true
         title-index: "03"
-        content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        image: images/psypherlogo.png
-        actions:
-          - label: Learn More
-            url: /features
-      - title: " - Testimonials"
-        title-index: "04"
-        content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        image: images/psypherlogo.png
-        actions:
-          - label: Learn More
-            url: /features
-      - title: Matt’s Story
-        content: >-
-          Psypher facilitates two-part workshops that engage students in youth-centered discussions 
-          about wellness and provide an expressive outlet through urban dance. 
-        image: images/psypherlogo.png
-        actions:
-          - label: Learn More
-            url: /features
+        subtitle1: "Part 1: Discussion"
+        subtitle2: "Part 2: Dance"
+        content1: >-
+          Your workshop will begin with a facilitated
+          discussion around topics that are catered to
+          your students’ interests. You can also choose
+          from our extensive list of curated workshops!
+        content2: >-
+          Every workshop closes with a specialized urban dance session where students groove,
+          learn dance pieces, and have fun to reinforce
+          the lessons. No dance experience required!
+        image1: images/psypherlogo.png
+        imageAlt1: images/psypherlogo.png
+        image2: https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png
+        imageAlt2: https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png
+
   - type: section_reviews
     section_id: reviews
-    title: "03 - Testimonials"
+    title: "04 - Testimonials"
     bg: black
     reviews:
       - author: Grace Zhu 
