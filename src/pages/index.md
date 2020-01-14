@@ -41,7 +41,6 @@ sections:
             url: /features
 
       - subtitle2: "Matt's Story"
-        use-offset-title: true
         use-bisected-grid: true
         use-large-subtitle-2: "value"
         background-color: "black"
@@ -71,7 +70,9 @@ sections:
 
   - type: section_reviews
     section_id: reviews
-    title: "04 - Testimonials"
+    background-color: black
+    title: " - Testimonials"
+    title-index: "04" 
     bg: black
     reviews:
       - author: Grace Zhu 
@@ -114,13 +115,120 @@ sections:
     title: Latest Posts
     bg: white
 
-  - type: section_cta
-    section_id: call-to-action
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
+  - type: section_calendar
+    section_id: calendar
+    title: "05 - Events"
+    
+  - type: section_meet_the_team
+    section_id: Team Information
+    title: " - Meet The Team"
+    title-index: "06"
+    background-color: black
+    director:
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        image: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        quote:  My favorite part about working with Psypher
+                is hearing the unique perspectives that youth
+                bring to the table. It’s empowering to see
+                these young people engaging in discussions
+                about wellness and watching their growth
+                over the course of our workshops. I also get
+                to work with such an incredibly passionate,
+                creative, and down-to-earth team to make it
+                all happen!
+    people: 
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        image: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+      - name: Mattew Diep
+        role: Executive Director & Founder
+        quote:  My favorite part about working with Psypher
+                      is hearing the unique perspectives that youth
+                      bring to the table. It’s empowering to see
+                      these young people engaging in discussions
+                      about wellness and watching their growth
+                      over the course of our workshops. I also get
+                      to work with such an incredibly passionate,
+                      creative, and down-to-earth team to make it
+                      all happen!
+  
+
 menus:
   main:
     title: Home

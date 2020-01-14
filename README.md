@@ -29,3 +29,9 @@ The content of this site is managed by NetlifyCMS. Visit https://{yoursite-domai
         npm run develop
 
 1. Browse to [http://localhost:8000/](http://localhost:8000/)
+
+# Repo Layout & Notes
+1. Main code entry point is `index.js` with each page's layout being determined by the various templates stored in `src/templates.js`
+2. Markdown files govern the data / content that is displayed on each component/ template. Each markdown is linked to the template based on each section type & key.
+3. Stackbit.yml file determines the config's for generation the static site content that gets published to the StackBit Application / Website https://docs.stackbit.com/uniform/stackbit-yaml/
+4

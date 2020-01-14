@@ -10,6 +10,8 @@ import SectionHero from './SectionHero';
 import SectionPosts from './SectionPosts';
 import SectionPricing from './SectionPricing';
 import SectionReviews from './SectionReviews';
+import SectionCalendar from './SectionCalendar';
+import SectionMeetTheTeam from './SectionMeetTheTeam';
 import Social from './Social';
 import SubscribeForm from './SubscribeForm';
 import Layout from './Layout';
@@ -29,7 +31,9 @@ export {
     SectionReviews,
     Social,
     SubscribeForm,
-    Layout
+    Layout,
+    SectionCalendar,
+    SectionMeetTheTeam,
 };
 
 export default {
@@ -47,5 +51,7 @@ export default {
     SectionReviews,
     Social,
     SubscribeForm,
-    Layout
+    Layout,
+    SectionCalendar,
+    SectionMeetTheTeam,
 };

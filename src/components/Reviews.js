@@ -26,7 +26,7 @@ export default class Review extends React.Component {
     }
 
     render() {
-        const image = <img className="cell review" src={safePrefix(_.get(this.props.review, 'avatar'))} alt="Author avatar" />;
+        const image = <img style={{height:"50vh", width: "50vw"}} src={safePrefix(_.get(this.props.review, 'avatar'))} alt="Author avatar" />;
         const backgroundText = <div className="review-inside">
             <p className="review-text">{htmlToReact(_.get(this.props.review, 'content'))}</p>
             <footer className="review-footer">
@@ -47,7 +47,10 @@ export default class Review extends React.Component {
         </div>
 
         return (
-            <div className="cell review" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut}>
+            <div className="cell review" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} style = {{
+                "padding-top": "5vh",
+                "padding-bottom": "10vh",
+            }}>
                     {this.state.showImage ?
                         image : backgroundText
                     }

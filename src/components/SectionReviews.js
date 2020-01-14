@@ -1,29 +1,37 @@
 import React from 'react';
 import _ from 'lodash';
 import Review from './Reviews';
+import styled from 'styled-components';
 
 import { htmlToReact } from '../utils';
+
+const Title = styled.h1`
+  font-size: 5vw;
+  color: ${props => props.isBlackBackground ?
+    "white" : "black"};
+  padding-left: 12.5%;
+  padding-bottom: 7vh;
+  padding-top: 10vh;
+`;
+
+const TitleIndex = {
+  color: "purple",
+};
 
 export default class SectionReviews extends React.Component {
   render() {
     return (
       <section id={_.get(this.props, 'section.section_id')} className={'block reviews-block bg-' + _.get(this.props, 'section.bg') + " outer"}>
-        <div className="block-header inner-small">
-          {_.get(this.props, 'section.title') &&
-            <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
-          }
-
-          {_.get(this.props, 'section.subtitle') &&
-            <p className="block-subtitle">
-              {htmlToReact(_.get(this.props, 'section.subtitle'))}
-            </p>
-          }
-        </div>
-
+        {_.get(this.props, 'section.title') &&
+          <Title isBlackBackground={_.get(this.props, 'section.background-color') === 'black'}>
+            <span style={TitleIndex}>{_.get(this.props, 'section.title-index')}</span>
+            {_.get(this.props, 'section.title')}
+          </Title>
+        }
 
         {_.get(this.props, 'section.reviews') &&
           <div className="inner">
-            <div className="grid">
+            <div className="grid" >
               {_.map(_.get(this.props, 'section.reviews'), (review, review_idx) => (
                 <Review
                   key={`Review ${review_idx}`}
