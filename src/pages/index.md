@@ -118,7 +118,13 @@ sections:
   - type: section_calendar
     section_id: calendar
     title: "05 - Events"
-    
+
+  - type: section_gallery
+    section_id: gallery
+    title: "Gallery"
+    subtitle: "Moments we love"
+    background-color: black
+
   - type: section_meet_the_team
     section_id: Team Information
     title: " - Meet The Team"
