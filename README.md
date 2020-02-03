@@ -34,4 +34,4 @@ The content of this site is managed by NetlifyCMS. Visit https://{yoursite-domai
 1. Main code entry point is `index.js` with each page's layout being determined by the various templates stored in `src/templates.js`
 2. Markdown files govern the data / content that is displayed on each component/ template. Each markdown is linked to the template based on each section type & key.
 3. Stackbit.yml file determines the config's for generation the static site content that gets published to the StackBit Application / Website https://docs.stackbit.com/uniform/stackbit-yaml/
-4
+4. Every Markdown file in `src/pages` becomes an actual extension page for the website, with the name of the MD file being the extension link (i.e. `about.md` becomes `psypher/about`)
