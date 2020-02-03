@@ -43,7 +43,7 @@ sections:
       - subtitle2: "Matt's Story"
         use-bisected-grid: true
         use-large-subtitle-2: "value"
-        background-color: "black"
+        background-color: black
         video1: "https://www.youtube.com/embed/a6a05slzqNs"
         content2: >-
           Learn how Matt’s journey with the mental
