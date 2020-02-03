@@ -1,8 +1,39 @@
 import React from 'react';
 import _ from 'lodash';
+import styled from 'styled-components';
 
 import { htmlToReact, safePrefix } from '../utils';
 
+const IsHoveredReview = styled.div`
+    padding: 7vh;
+    background: white;
+    max-height: 50vh;
+`;
+
+const ReviewText = styled.p`
+    font-size: 17px;
+    font-weight: bold;
+`;
+
+const reviewAvatar = {
+    "border-radius": "50%",
+    "margin-right": "15px",
+    height: "10vw",
+    width: "10vw",
+};
+
+const AuthorName = styled.cite`
+    color: _palette(secondary);
+    font-size: 3vh;
+    font-weight: bold;
+    margin: 0;
+`;
+
+const AuthorProfession = styled.cite`
+    color: _palette(secondary);
+    font-size: 2vh;
+    margin: 0;
+`;
 export default class Review extends React.Component {
     constructor(props) {
         super(props);
@@ -27,24 +58,24 @@ export default class Review extends React.Component {
 
     render() {
         const image = <img style={{height:"50vh", width: "50vw"}} src={safePrefix(_.get(this.props.review, 'avatar'))} alt="Author avatar" />;
-        const backgroundText = <div className="review-inside">
-            <p className="review-text">{htmlToReact(_.get(this.props.review, 'content'))}</p>
+        const backgroundText = <IsHoveredReview>
+            <ReviewText>{htmlToReact(_.get(this.props.review, 'content'))}</ReviewText>
             <footer className="review-footer">
                 {_.get(this.props.review, 'avatar') &&
-                    <img className="review-avatar" src={safePrefix(_.get(this.props.review, 'avatar'))} alt="Author avatar" />
+                    <img style={reviewAvatar} src={safePrefix(_.get(this.props.review, 'avatar'))} alt="Author avatar" />
                 }
                 <div>
                     <div>
-                        <cite className="review-author">{_.get(this.props.review, 'author')}</cite>
+                        <AuthorName>{_.get(this.props.review, 'author')}</AuthorName>
                     </div>
                     <div>
-                        <cite className="review-author-profession">{_.get(this.props.review, 'author_profession')}</cite>
+                        <AuthorProfession>{_.get(this.props.review, 'author_profession')}</AuthorProfession>
                     </div>
                 </div>
                 <div>
                 </div>
             </footer>
-        </div>
+        </IsHoveredReview>
 
         return (
             <div className="cell review" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut} style = {{

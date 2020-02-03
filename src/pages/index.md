@@ -79,36 +79,36 @@ sections:
         author_profession: Director of Zero Below
         avatar: images/review1.jpg
         content: >-
-          It brings together something many people struggle with alone and 
+          "It brings together something many people struggle with alone and 
           something that brings people together, so maybe the combination can help get
           people more comfortable with the idea that they don’t have to struggle 
-          alone with any mental health concerns they may be facing.
+          alone with any mental health concerns they may be facing."
       - author: David Slaney
         author_profession: Director of Zero Below
         avatar: images/review2.jpg
         content: >-
-          My first experience with the program was fantastic.
+          "My first experience with the program was fantastic.
           In the dance industry, we are constantly judging,
           evaluating, & analyzing our every move, so it was
           nice to sit down to talk about these everyday things
-          that affect us and our mental health.
+          that affect us and our mental health."
       - author: Alexia Diaz
         author_profession: Psypher Participant
         avatar: images/review1.jpg
         content: >-
-          Sometimes there is stuff that you feel is burdening
+          "Sometimes there is stuff that you feel is burdening
           you, and it’s hard to put it into words. Sometimes
           releasing it through a physical medium, through
           your body, lets you release that without having to
-          say anything. That’s a cathartic experience.
+          say anything. That’s a cathartic experience."
       - author: Grace Zhu 
         author_profession: Director of Zero Below
         avatar: images/review1.jpg
         content: >-
-          It brings together something many people struggle with alone and 
+          "It brings together something many people struggle with alone and 
           something that brings people together, so maybe the combination can help get
           people more comfortable with the idea that they don’t have to struggle 
-          alone with any mental health concerns they may be facing.
+          alone with any mental health concerns they may be facing."
 
   - type: section_posts
     section_id: recent-posts
