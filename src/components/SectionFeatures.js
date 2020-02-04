@@ -51,6 +51,7 @@ const configureBackgroundOverflow = {
   paddingRight: 0,
   minWidth: "100%",
   paddingBottom: "0",
+  paddingTop: 0,
 };
 export default class SectionFeatures extends React.Component {
   render() {
