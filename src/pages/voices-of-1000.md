@@ -1,9 +1,13 @@
 ---
-title: Style Guide
+title: Voices of 1000
 subtitle: >-
   The style guide provides you with a blueprint of default post and page styles.
   The style guide is also a great reference for suggested typographic treatment
   and styles for your content.
+menus:
+  main:
+    title: Voices of 1000
+    weight: 2
 template: page
 ---
 

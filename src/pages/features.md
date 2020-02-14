@@ -36,6 +36,6 @@ sections:
 menus:
   main:
     title: Features
-    weight: 2
+    weight: 3
 template: landing
 ---
