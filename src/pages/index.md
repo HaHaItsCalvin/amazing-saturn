@@ -6,7 +6,7 @@ sections:
     title1: STEP OUT.
     title2: SPEAK UP.
     content: >-
-      We are uplifting youth voices to change the conversation around mental health.
+      We are uplifting youth voices to change the conversation around mental wellness.
     image: images/psypherlogo.png
     video: videos/psyphersizzle.mp4
     # actions:
@@ -53,20 +53,21 @@ sections:
         use-bisected-grid: true
         title-index: "03"
         subtitle1: "Part 1: Discussion"
-        subtitle2: "Part 2: Dance"
         content1: >-
           Your workshop will begin with a facilitated
           discussion around topics that are catered to
           your students’ interests. You can also choose
           from our extensive list of curated workshops!
+        image1: images/How_It_Works/speak_up.jpg
+        imageAlt1: Image of Microphone.
+
+        subtitle2: "Part 2: Dance"
         content2: >-
           Every workshop closes with a specialized urban dance session where students groove,
           learn dance pieces, and have fun to reinforce
           the lessons. No dance experience required!
-        image1: images/psypherlogo.png
-        imageAlt1: images/psypherlogo.png
-        image2: https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png
-        imageAlt2: https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png
+        image2: images/How_It_Works/step_out.jpg
+        imageAlt2: Image of Dance Shoes.
 
   - type: section_reviews
     section_id: reviews
@@ -77,7 +78,7 @@ sections:
     reviews:
       - author: Grace Zhu 
         author_profession: Director of Zero Below
-        avatar: images/review1.jpg
+        avatar: images/TESTIMONIAL_Headshots/GraceZhu.jpg
         content: >-
           "It brings together something many people struggle with alone and 
           something that brings people together, so maybe the combination can help get
@@ -85,7 +86,7 @@ sections:
           alone with any mental health concerns they may be facing."
       - author: David Slaney
         author_profession: Director of Zero Below
-        avatar: images/review2.jpg
+        avatar: images/TESTIMONIAL_Headshots/DavidSlaney.jpg
         content: >-
           "My first experience with the program was fantastic.
           In the dance industry, we are constantly judging,
@@ -94,21 +95,20 @@ sections:
           that affect us and our mental health."
       - author: Alexia Diaz
         author_profession: Psypher Participant
-        avatar: images/review1.jpg
+        avatar: images/TESTIMONIAL_Headshots/AlexiaDiaz.jpg
         content: >-
           "Sometimes there is stuff that you feel is burdening
           you, and it’s hard to put it into words. Sometimes
           releasing it through a physical medium, through
           your body, lets you release that without having to
           say anything. That’s a cathartic experience."
-      - author: Grace Zhu 
-        author_profession: Director of Zero Below
-        avatar: images/review1.jpg
+      - author: Danyel Moulton
+        author_profession: Director of V Mo & LFG Dance Crew
+        avatar: images/TESTIMONIAL_Headshots/DanyelMoulton.jpg
         content: >-
-          "It brings together something many people struggle with alone and 
-          something that brings people together, so maybe the combination can help get
-          people more comfortable with the idea that they don’t have to struggle 
-          alone with any mental health concerns they may be facing."
+          “Sitting there in a classroom full of high schoolers and listening to the information that Psypher
+          taught made me wish that I had that information
+          when I was their age.” 
 
   - type: section_posts
     section_id: recent-posts

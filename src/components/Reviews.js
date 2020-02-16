@@ -24,7 +24,7 @@ const reviewAvatar = {
 
 const AuthorName = styled.cite`
     color: _palette(secondary);
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-weight: bold;
     margin: 0;
 `;

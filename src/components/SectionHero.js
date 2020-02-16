@@ -1,6 +1,5 @@
 import React from 'react';
 import _ from 'lodash';
-import Video from './Video';
 import styled from 'styled-components';
 
 import { safePrefix, markdownify, Link } from '../utils';
@@ -11,9 +10,13 @@ const Section = styled.div`
   background: black;
 `;
 const HeroText = styled.div`
-  padding-top: 20vh;
+  padding-top: 25vh;
   padding-left: 15%;
   position: absolute;
+`;
+
+const HeroTitle = styled.h1`
+  font-weight: 900;
 `;
 
 const VideoContainer = styled.div`
@@ -22,7 +25,7 @@ const VideoContainer = styled.div`
   margin-right: 5%;
   height: 70vh;
   width: 100%;
-  max-width:60vw;
+  max-width:56vw;
 `;
 
 export default class SectionHero extends React.Component {
@@ -31,8 +34,8 @@ export default class SectionHero extends React.Component {
       <section id={_.get(this.props, 'section.section_id')}>
         <Section>
           <HeroText>
-            {_.get(this.props, 'section.title1') && <h2 className="block-title-white"> {_.get(this.props, 'section.title1')} </h2>}
-            {_.get(this.props, 'section.title2') && <h2 className="block-title-white"> {_.get(this.props, 'section.title2')} </h2>}
+            {_.get(this.props, 'section.title1') && <HeroTitle className="block-title-white"> {_.get(this.props, 'section.title1')} </HeroTitle>}
+            {_.get(this.props, 'section.title2') && <HeroTitle className="block-title-white"> {_.get(this.props, 'section.title2')} </HeroTitle>}
 
             <div className="block-subttitle-white">
               {markdownify(_.get(this.props, 'section.content'))}

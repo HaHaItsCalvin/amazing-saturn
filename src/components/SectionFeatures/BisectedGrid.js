@@ -21,7 +21,7 @@ const GridCard = styled.div`
 `;
 
 const LargeSubtitle = styled.h1`
-  font-size: 5vw;
+  font-size: 3vw;
   color: ${props => props.isBlackBackground ?
         "white" : "black"};
 `;
