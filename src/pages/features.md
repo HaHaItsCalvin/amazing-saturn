@@ -33,9 +33,9 @@ sections:
     actions:
       - label: Get Started
         url: '#'
-menus:
-  main:
-    title: Moments
-    weight: 3
+# menus:
+#   main:
+#     title: Moments
+#     weight: 3
 template: landing
 ---

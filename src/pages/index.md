@@ -6,9 +6,9 @@ sections:
     title1: STEP OUT.
     title2: SPEAK UP.
     content: >-
-      We are uplifting youth voices to change the conversation around mental wellness.
+      We are uplifting youth voices to change <br> the conversation around mental wellness.
     image: images/psypherlogo.png
-    video: videos/psyphersizzle.mp4
+    video: https://www.youtube.com/embed/yFQjM2kMWqY?modestbranding=1&rel=0
     # actions:
     #   - label: Watch Video
     #     url: /features
@@ -44,12 +44,12 @@ sections:
         use-bisected-grid: true
         use-large-subtitle-2: "value"
         background-color: black
-        video1: "https://www.youtube.com/embed/a6a05slzqNs"
+        video1: "https://www.youtube.com/embed/N6HATuCctXc?modestbranding=1&rel=0"
         content2: >-
           Learn how Matt’s journey with the mental
           health system inspired him to create Psypher’s community-based wellness program
 
-      - title: " - How it Works"
+      - title: " - Hosting Workshops"
         use-bisected-grid: true
         title-index: "03"
         subtitle1: "Part 1: Discussion"
@@ -110,21 +110,21 @@ sections:
           taught made me wish that I had that information
           when I was their age.” 
 
-  - type: section_posts
-    section_id: recent-posts
-    title: " - Events"
-    title-index: "05"
-    bg: white
+  # - type: section_posts
+  #   section_id: recent-posts
+  #   title: " - Moments"
+  #   title-index: "05"
+  #   bg: white
 
   # - type: section_calendar
   #   section_id: calendar
   #   title: "05 - Events"
 
-  - type: section_gallery
-    section_id: gallery
-    title: "Gallery"
-    subtitle: "Moments we love"
-    background-color: black
+  # - type: section_gallery
+  #   section_id: gallery
+  #   title: "Gallery"
+  #   subtitle: "Moments we love"
+  #   background-color: black
 
   - type: section_meet_the_team
     section_id: Team Information
@@ -157,7 +157,7 @@ sections:
                 in high school as well as encourage healthy expression through the arts in a safe, welcoming space.
       - name: Dylan Han
         role: Design Consultant
-        image: "images/TEAM_Headshots/Alyssa.jpg"
+        image: "images/TEAM_Headshots/DylanHan.jpg"
         quote:  What I enjoy about working with Psypher is that I can
               share the life lessons, joy, and experience of dance
               with the next generation while combining that with

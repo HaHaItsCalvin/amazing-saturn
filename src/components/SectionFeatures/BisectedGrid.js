@@ -68,7 +68,7 @@ class BisectedGridCard extends React.Component {
         return (
             <GridCard>
                 {this.props.video !== safePrefix ?
-                    <iframe width="100%" height="100%" title="Matthew's Story" src={this.props.video} frameborder="0" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe width="100%" height="100%" title="Matthew's Story" src={this.props.video} frameborder="0" allowfullscreen=""></iframe>
                         :
                     <div>
                         {

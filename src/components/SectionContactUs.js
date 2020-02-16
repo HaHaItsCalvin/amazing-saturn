@@ -70,8 +70,10 @@ export default class SectionContactUs extends React.Component {
                                     {markdownify(_.get(this.props, 'section.content'))}
                                 </div>
                                 <Grid>
-                                    <ButtonText>Contact Us</ButtonText>
-                                    <img style={imageSpacing}height="20px" width="50px" src="https://cdn3.iconfinder.com/data/icons/line/36/arrow_right-512.png"/>
+                                    <ButtonText>{_.get(this.props, 'section.button_text') || ""}</ButtonText>
+                                    <a href="/contact/">
+                                        <img style={imageSpacing} height="20px" width="50px" src="https://cdn3.iconfinder.com/data/icons/line/36/arrow_right-512.png" />
+                                    </a>
                                 </Grid>
                             </Message>
                         </MessageContainer>

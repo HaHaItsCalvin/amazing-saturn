@@ -66,9 +66,9 @@ sections:
           luctus in ipsum. Nunc pellentesque mi vel dui vulputate, a lobortis
           lacus venenatis. Phasellus pellentesque dolor id feugiat faucibus.
           Etiam vehicula nunc velit, in consequat nisl feugiat nec.
-menus:
-  main:
-    title: Workshops
-    weight: 2
+# menus:
+#   main:
+#     title: Workshops
+#     weight: 2
 template: landing
 ---

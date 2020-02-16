@@ -10,8 +10,8 @@ sections:
       tortor pretium ligula.
     bg: gray
 menus:
-  secondary:
-    title: Contact
-    weight: 3
+  main:
+    title: Get Connected
+    weight: 4
 template: landing
 ---

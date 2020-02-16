@@ -3,22 +3,17 @@
         {
             "type": "facebook",
             "title": "Facebook",
-            "url": "https://facebook.com/"
+            "url": "https://www.facebook.com/psypherLAofficial/"
         },
         {
             "type": "instagram",
             "title": "Instagram",
-            "url": "https://www.instagram.com/"
+            "url": "https://www.instagram.com/psypherla/"
         },
         {
             "type": "youtube",
             "title": "Youtube",
-            "url": "https://www.youtube.com/"
-        },
-        {
-            "type": "email",
-            "title": "Email",
-            "url": "https://www.gmail.com/"
+            "url": "https://www.youtube.com/channel/UC1OPKweUr8nS75zKuO_FMeA"
         }
     ]
 }

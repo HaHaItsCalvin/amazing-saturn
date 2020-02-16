@@ -11,7 +11,7 @@ const Section = styled.div`
 `;
 const HeroText = styled.div`
   padding-top: 25vh;
-  padding-left: 15%;
+  padding-left: 13%;
   position: absolute;
 `;
 
@@ -51,7 +51,7 @@ export default class SectionHero extends React.Component {
           </HeroText>
 
           <VideoContainer>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d5v7Lnssy9w" frameborder="0" allow="accelerometer; autoplay;picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src={_.get(this.props, 'section.video')} frameborder="0" allow="accelerometer; autoplay;picture-in-picture" allowfullscreen></iframe>
           </VideoContainer>
         </Section>
       </section>
