@@ -2,7 +2,27 @@ import React from 'react';
 import _ from 'lodash';
 import moment from 'moment-strftime';
 
-import {htmlToReact, getPages, Link, safePrefix} from '../utils';
+import styled from 'styled-components';
+import { htmlToReact, getPages, Link, safePrefix } from '../utils';
+
+const TitleContainer = styled.div`
+  padding-left: 12%;
+  padding-bottom: 5vh;
+`;
+const Title = styled.h1`
+  font-size: 5vw;
+`;
+
+const TitleIndex = {
+  color: "purple",
+};
+
+const Text = styled.p`
+  padding-left: 30%;
+  font-size: 1.5vw;
+  font-weight: normal;
+  color: black;
+`;
 
 export default class SectionPosts extends React.Component {
     render() {
@@ -10,16 +30,15 @@ export default class SectionPosts extends React.Component {
         let recent_posts = display_posts.slice(0, 3);
         return (
             <section id={_.get(this.props, 'section.section_id')} className={'block posts-block bg-' + _.get(this.props, 'section.bg') + ' outer'}>
-              <div className="block-header inner-small">
-                {_.get(this.props, 'section.title') && 
-                <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
+              <TitleContainer>
+                {_.get(this.props, 'section.title') &&
+                  <Title isBlackBackground={_.get(this.props, 'section.background-color') === 'black'}>
+                    <span style={TitleIndex}>{_.get(this.props, 'section.title-index')}</span>
+                    {_.get(this.props, 'section.title')}
+                  </Title>
                 }
-                {_.get(this.props, 'section.subtitle') && 
-                <p className="block-subtitle">
-                  {htmlToReact(_.get(this.props, 'section.subtitle'))}
-                </p>
-                }
-              </div>
+              </TitleContainer>  
+
               <div className="inner">
                 <div className="post-feed">
                   {_.map(recent_posts, (post, post_idx) => (

@@ -9,7 +9,7 @@
             "actions": [
                 {
                     "label": "Get Connected",
-                    "url": "/signup"
+                    "url": "/contact"
                 }
             ]
         }

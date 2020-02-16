@@ -10,17 +10,17 @@ const PrimaryContainer = styled.div`
   overflow: invisible;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 60% 85%;
+  background-size: 80% 85%;
   background-image: url(${props => props.image});
   height: 85vh;
-  padding-bottom: 10vh;
+  padding-bottom: 15vh;
 `;
 
 const MessageContainer = styled.div`
     color: white;
     width: 35vw;
     height: 40vh;
-    padding-top: 50vh;
+    padding-top: 60vh;
     padding-right: 17.5vw;
 `;
 const Message = styled.div`

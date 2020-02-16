@@ -2,9 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Story = styled.div`
-  margin-top: 15vh;
-  margin-left: 10vh;
-  margin-bottom: 10vh;
+  padding-top: 25vh;
+  background:white;
   font-weight: 15px;
   margin-left: auto;
   margin-right: auto;

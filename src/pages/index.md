@@ -9,9 +9,9 @@ sections:
       We are uplifting youth voices to change the conversation around mental health.
     image: images/psypherlogo.png
     video: videos/psyphersizzle.mp4
-    actions:
-      - label: Watch Video
-        url: /features
+    # actions:
+    #   - label: Watch Video
+    #     url: /features
 
   - type: section_features
     section_id: features
@@ -112,12 +112,13 @@ sections:
 
   - type: section_posts
     section_id: recent-posts
-    title: Latest Posts
+    title: " - Events"
+    title-index: "05"
     bg: white
 
-  - type: section_calendar
-    section_id: calendar
-    title: "05 - Events"
+  # - type: section_calendar
+  #   section_id: calendar
+  #   title: "05 - Events"
 
   - type: section_gallery
     section_id: gallery
@@ -133,7 +134,7 @@ sections:
     director:
       - name: Mattew Diep
         role: Executive Director & Founder
-        image: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        image: "images/TEAM_Headshots/Matthew.jpg"
         quote:  My favorite part about working with Psypher
                 is hearing the unique perspectives that youth
                 bring to the table. It’s empowering to see
@@ -144,98 +145,74 @@ sections:
                 creative, and down-to-earth team to make it
                 all happen!
     people: 
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        image: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
-      - name: Mattew Diep
-        role: Executive Director & Founder
-        quote:  My favorite part about working with Psypher
-                      is hearing the unique perspectives that youth
-                      bring to the table. It’s empowering to see
-                      these young people engaging in discussions
-                      about wellness and watching their growth
-                      over the course of our workshops. I also get
-                      to work with such an incredibly passionate,
-                      creative, and down-to-earth team to make it
-                      all happen!
+      - name: Alyssa Bernal
+        role: Program Consultant
+        image: "images/TEAM_Headshots/Alyssa.jpg"
+        quote:  What I enjoy about working with Psypher is that I can
+                share the life lessons, joy, and experience of dance
+                with the next generation while combining that with
+                my passion for wellness. I’m so honored to be able
+                to help in developing curriculum for Psypher and facilitating especially because I wish I had someone to
+                teach me about these skills and mindsets when I was
+                in high school as well as encourage healthy expression through the arts in a safe, welcoming space.
+      - name: Dylan Han
+        role: Design Consultant
+        image: "images/TEAM_Headshots/Alyssa.jpg"
+        quote:  What I enjoy about working with Psypher is that I can
+              share the life lessons, joy, and experience of dance
+              with the next generation while combining that with
+              my passion for wellness. I’m so honored to be able
+              to help in developing curriculum for Psypher and facilitating especially because I wish I had someone to
+              teach me about these skills and mindsets when I was
+              in high school as well as encourage healthy expression through the arts in a safe, welcoming space.
+      - name: Calvin Ha
+        role: Tech & Operations Developer
+        image: "images/TEAM_Headshots/Calvin.jpg"
+        quote:  I’m proud to be a part of Psypher’s mission of educating & empowering youth. Each day, 
+                I’m thankful to collaborate with inspiring individuals, and I’m psyched to
+                blend the reach of technology with our mission of promoting wellness and building communities
+      - name: Megan Lau
+        role: Media Director
+        image: "images/TEAM_Headshots/Megan.jpg"
+        quote:  There isn’t anything else like Psypher. We start where
+                it matters - with the youth. The stages of growing up
+                impact who we are, how we are, and what we become;
+                therefore, being able to provide an insightful wellness
+                education allows us to start those conversations at a
+                young age. I’m blessed and grateful to be part of this
+                team by spreading the word about what we do and the
+                people we impact through the lens of a camera.
+      - name: Crystal Garcia
+        role: Design Intern
+        image: "images/TEAM_Headshots/Crystal.jpg"
+        quote: My favorite part about working with Psypher is to be
+                part of those moments to learn and to produce a good
+                support team and has been my safe space, even to
+                work alongside with an extraordinary team. Psypher
+                has been encouraged me to create more awesome
+                ideas that I wasn’t familiar with, and I was open-minded. With my design skills, I was to be able to help what
+                wellness means. Plus I hope the youths enjoy the Instagram post we present for them.
+      - name: Chelsea Dang
+        role: Media Intern
+        image: "images/TEAM_Headshots/Chelsea.jpg"
+        quote:  My favorite part about working with Psypher is being
+                able to provide a safe space for the youth to talk and
+                discuss about wellness. Being a part of this empowering organization has taught me so much about wellness and how important it is to provide the education
+                & knowledge for the youth. I am grateful to be working
+                side by side with passionate & motivated individuals
+                that share the same goals to give back to the youth!
+      - name: Lakeisha Ysaguirre
+        role: Social Media Intern
+        image: "images/TEAM_Headshots/Lakeisha.jpg"
+        quote:  For me the best part of Psypher is being able to contribute to the mental health problems throughout the
+                community and educate those who are unaware of
+                some of the issues that our youth faces daily. I’m also
+                extremely grateful and inspired to be able to work
+                with so many creative and caring individuals that do
+                so much to contribute to Psypher.
   - type: section_contact_us
     section_id: Contact Us
-    image: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    image: "images/fullTeamCover.jpg"
     content: Let's Start <br> The Conversation!
     button_text: Contact Us
   

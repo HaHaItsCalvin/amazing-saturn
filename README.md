@@ -35,6 +35,7 @@ The content of this site is managed by NetlifyCMS. Visit https://{yoursite-domai
 2. Markdown files govern the data / content that is displayed on each component/ template. Each markdown is linked to the template based on each section type & key.
 3. Stackbit.yml file determines the config's for generation the static site content that gets published to the StackBit Application / Website https://docs.stackbit.com/uniform/stackbit-yaml/
 4. Every Markdown file in `src/pages` becomes an actual extension page for the website, with the name of the MD file being the extension link (i.e. `about.md` becomes `psypher/about`)
+5. To add Navbar links, this can be done by editing the `menus.main` of the Markdown file you'd like to add; there's plenty of examples.
 
 # Tricks for Searching the Code Base
 1. Use the VS Code Search functionality to find key words, phrases, names, etc...

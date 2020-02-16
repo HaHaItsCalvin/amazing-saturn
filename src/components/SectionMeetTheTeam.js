@@ -9,13 +9,14 @@ const gridStyling = {
     "padding-left": "2vw",
     display: "grid",
     "grid-template-columns": "1fr 1fr ",
-    "grid-gap": "7.5vw",
+    "grid-gap": "5vw",
 };
 const centeredGrid = {
   ...gridStyling,
   marginLeft: "10%",
   marginBottom: "15vh",
   marginTop: "10vh",
+  "grid-gap": "0.5vw",
 };
 
 const Title = styled.h1`
@@ -48,8 +49,8 @@ export default class SectionMeetTheTeam extends React.Component {
             </Title>
             {_.get(this.props, 'section.director') &&
               _.map(_.get(this.props, 'section.director'), (director, director_idx)=>(
-                <div style = {centeredGrid}>
-                  <img src ={_.get(director, 'image')} />
+                <div style={centeredGrid}>
+                  <img src={_.get(director, 'image')} height="20%" width="70%"/>
                   <PersonCard
                     isBlackBackground={_.get(this.props, 'section.background-color') === 'black'}
                     name={_.get(director, 'name')}

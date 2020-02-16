@@ -201,6 +201,9 @@ models:
             - section_posts
             - section_pricing
             - section_reviews
+            - section_gallery
+            - section_calendar
+            - section_meet_the_team
             - section_contact
       - type: page_menus
         name: menus

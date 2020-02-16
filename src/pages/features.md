@@ -1,9 +1,9 @@
 ---
-title: Features
+title: Moments
 sections:
   - type: section_content
-    section_id: features
-    title: The Best Features of Your Services
+    section_id: moments
+    title: The Best Moments of Your Services
     content: >-
       Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
       cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
@@ -35,7 +35,7 @@ sections:
         url: '#'
 menus:
   main:
-    title: Features
+    title: Moments
     weight: 3
 template: landing
 ---

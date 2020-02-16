@@ -7,22 +7,21 @@ const GridCard = styled.div`
     flex: 5;
 `;
 
-const Name = styled.h1`
+const Name = styled.h2`
   color: ${props => props.isBlackBackground ?
         "white" : "black"};
 `;
 
-const Role = styled.h3`
+const Role = styled.h4`
   color: ${props => props.isBlackBackground ?
         "white" : "black"};
 `;
 
 const Quote = styled.p`
-  font-size: 1vw;
+  font-size: 1.1vw;
   font-weight: normal;
   color: ${props => props.isBlackBackground ?
         "white" : "black"};
-  padding-top: 1vh;
 `;
 
 export default class PersonCard extends React.Component {
@@ -44,7 +43,7 @@ class Person extends React.Component {
         const safePrefix = "/";
         return (
             <GridCard>
-                {this.props.image && <img src={this.props.image}/>}
+                {this.props.image && <img src={this.props.image} width="65%"/>}
 
                 <Name isBlackBackground = {this.props.isBlackBackground}>
                     {this.props.name}

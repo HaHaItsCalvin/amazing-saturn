@@ -9,7 +9,7 @@ const Section = styled.div`
     "white" : "black"};
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 10vh;
+  padding-top: 20vh;
   padding-bottom: 10vh;
 `;
 
