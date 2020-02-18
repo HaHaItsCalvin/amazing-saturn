@@ -1,8 +1,8 @@
 {
-    "title": "Stackbit Azimuth Theme",
+    "title": "Psypher: Step Out. Speak Up.",
     "palette": "blue",
     "header": {
-        "title": "Azimuth",
+        "title": "Psypher",
         "logo_img": "images/psypherlogo.png",
         "has_nav": true,
         "menu": {
