@@ -41,3 +41,7 @@ The content of this site is managed by NetlifyCMS. Visit https://{yoursite-domai
 1. Use the VS Code Search functionality to find key words, phrases, names, etc...
 2. Use `CMD + P` then type in the file name to quickly open the file.
 3. `CMD + Click` on a variable or definition to quickly navigate to where the variable is first defined.
+
+# Main <Head> Tag
+1. Is held within the `Layout.js` file
+2. Is where Site Map Indexing for Google is registered using their Indexing tags for SEO purposes.

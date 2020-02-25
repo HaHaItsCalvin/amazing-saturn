@@ -20,7 +20,7 @@ export default class Body extends React.Component {
                     <title>{_.get(this.props, 'pageContext.site.siteMetadata.title') + ' - '}{_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title')}</title>
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
-                    <meta name="google" content="notranslate" />
+                    <meta name="google-site-verification" content="DpRdWRqrCdndDR1QWJWjzcwlCFjj1w16Hh9gae-lJEM" />
                     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet"/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')} />
                     <link rel="shortcut icon" href="../../images/psyico.ico"></link>
