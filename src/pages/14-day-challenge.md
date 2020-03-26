@@ -4,7 +4,7 @@ sections:
   - type: section_content
     section_id: moments
     header: PSYPHER PRESENTS
-    title: WELLNESS <br> IN PLACE! 
+    title: WELLNESS IN PLACE! 
     subtitle: >-
       14 DAYS OF VIRTUAL WORKSHOPS TO FOSTER MENTAL WELLNESS TOGETHER
 
