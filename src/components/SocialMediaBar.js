@@ -23,11 +23,12 @@ export default class Navbar extends React.Component {
                 {_.map(_.get(this.props, 'pageContext.site.data.social.links'), (link, link_idx) => (
                     <li key={link_idx}>
                         <Link to={_.get(link, 'url')} target="_blank" rel="noopener">
-                            <img
+                            {/* <img
                                 //TODO: Add Image assets after Dylan Cuts them up.
                                 // src={_.get(link, 'image')}
                                 alt={_.get(link, 'title')}
-                            />
+                            /> */}
+                            {_.get(link, 'title')}
                         </Link>
                     </li>
                 ))}
