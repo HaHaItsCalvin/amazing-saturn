@@ -2,16 +2,19 @@
     "links": [
         {
             "type": "facebook",
+            "image":"",
             "title": "Facebook",
             "url": "https://www.facebook.com/psypherLAofficial/"
         },
         {
             "type": "instagram",
+            "image": "",
             "title": "Instagram",
             "url": "https://www.instagram.com/psypherla/"
         },
         {
             "type": "youtube",
+            "image": "",
             "title": "Youtube",
             "url": "https://www.youtube.com/channel/UC1OPKweUr8nS75zKuO_FMeA"
         }

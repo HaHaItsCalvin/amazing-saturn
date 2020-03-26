@@ -17,7 +17,7 @@ const textRotation = {
 const sideText = {
     ...fixedPosition,
     ...textRotation,
-    color: "white",
+    color: "#5c20bd",
     letterSpacing: "0.2em"
 };
 

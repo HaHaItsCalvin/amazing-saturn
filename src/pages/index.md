@@ -7,7 +7,7 @@ sections:
     title2: SPEAK UP.
     content: >-
       We are uplifting youth voices to change <br> the conversation around mental wellness.
-    image: images/psypherlogo.png
+    image: images/psypher_la_logo_purple.png
     video: https://www.youtube.com/embed/yFQjM2kMWqY?modestbranding=1&rel=0
     # actions:
     #   - label: Watch Video
@@ -35,7 +35,7 @@ sections:
           <span style="color: purple;">expressive outlet through urban dance.</span>
           Our dynamic team of youth advocates, mental health professionals, and urban dancers create workshops around
           topics that are informed by local youth. 
-        image: images/psypherlogo.png
+        image: images/psypher_la_logo_purple.png
         actions:
           - label: Learn More
             url: /features

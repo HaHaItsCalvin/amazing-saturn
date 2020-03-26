@@ -22,7 +22,13 @@ export default class Navbar extends React.Component {
             <ul style={socialSidebar}>
                 {_.map(_.get(this.props, 'pageContext.site.data.social.links'), (link, link_idx) => (
                     <li key={link_idx}>
-                        <Link to={_.get(link, 'url')} target="_blank" rel="noopener">{_.get(link, 'title')}</Link>
+                        <Link to={_.get(link, 'url')} target="_blank" rel="noopener">
+                            <img
+                                //TODO: Add Image assets after Dylan Cuts them up.
+                                // src={_.get(link, 'image')}
+                                alt={_.get(link, 'title')}
+                            />
+                        </Link>
                     </li>
                 ))}
             </ul>

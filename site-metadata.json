@@ -3,7 +3,7 @@
     "palette": "blue",
     "header": {
         "title": "Psypher",
-        "logo_img": "images/psypherlogo.png",
+        "logo_img": "images/psypher_la_logo_purple.png",
         "has_nav": true,
         "menu": {
             "actions": [
