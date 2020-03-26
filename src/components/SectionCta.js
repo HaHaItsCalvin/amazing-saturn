@@ -1,7 +1,15 @@
 import React from 'react';
 import _ from 'lodash';
+import styled from 'styled-components';
+import CrossfadeImage from 'react-crossfade-image'
 
-import {htmlToReact, Link, safePrefix} from '../utils';
+import { htmlToReact, Link, safePrefix, markdownify} from '../utils';
+
+const purple = "#5c20bd";
+
+const ContentText = styled.p`
+  font-size: 2.2vh;
+`;
 
 export default class SectionCta extends React.Component {
     render() {
@@ -11,18 +19,18 @@ export default class SectionCta extends React.Component {
                 <div className="grid">
                   <div className="cell block-content">
                     {_.get(this.props, 'section.title') && 
-                    <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
+                    <h4 className="block-title">{markdownify(_.get(this.props, 'section.title'))}</h4>
                     }
                     {_.get(this.props, 'section.subtitle') && 
-                    <p className="block-subtitle">
-                      {htmlToReact(_.get(this.props, 'section.subtitle'))}
-                    </p>
+                    <ContentText >
+                      {markdownify(_.get(this.props, 'section.subtitle'))}
+                    </ContentText>
                     }
-                  </div>
+                </div>
                   {_.get(this.props, 'section.actions') && 
                   <div className="cell block-buttons">
                     {_.map(_.get(this.props, 'section.actions'), (action, action_idx) => (
-                    <Link key={action_idx} to={safePrefix(_.get(action, 'url'))} className="button white large">{_.get(action, 'label')}</Link>
+                    <Link key={action_idx} to={safePrefix(_.get(action, 'url'))} className="button blue large">{_.get(action, 'label')}</Link>
                     ))}
                   </div>
                   }

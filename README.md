@@ -45,3 +45,6 @@ The content of this site is managed by NetlifyCMS. Visit https://{yoursite-domai
 # Main <Head> Tag
 1. Is held within the `Layout.js` file
 2. Is where Site Map Indexing for Google is registered using their Indexing tags for SEO purposes.
+
+# Static Directory
+1. `static/images` media gets automatically duplicated to the `public/images` directory, which is what's actually referenced for media/asset deployment.

@@ -625,7 +625,7 @@ img {
 }
 
 .underline:after {
-  border-left: 68px solid #0072ff;
+  border-left: 68px solid #7e6ce6;
   display: block;
   content: "";
   height: 2px;
@@ -1885,9 +1885,9 @@ img {
 }
 
 .block.bg-accent {
-  background: #0072ff;
-  background: -webkit-gradient(linear, left top, right top, from(#0072ff), to(#00c6ff));
-  background: linear-gradient(to right, #0072ff, #00c6ff);
+  background: #8c56e4;
+  background: -webkit-gradient(linear, left top, right top, from(#8c56e4), to(#58cdee));
+  background: linear-gradient(to right, #8c56e4, #58cdee);
   color: #fff;
 }
 
