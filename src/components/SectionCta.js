@@ -1,7 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
 import styled from 'styled-components';
-import CrossfadeImage from 'react-crossfade-image'
 
 import { htmlToReact, Link, safePrefix, markdownify} from '../utils';
 
