@@ -212,7 +212,7 @@ sections:
                 so much to contribute to Psypher.
   - type: section_contact_us
     section_id: Contact Us
-    image: "images/fullTeamCover.jpg"
+    image: https://i.ibb.co/XVzBFj8/full-Team-Cover.jpg
     content: Let's Start <br> The Conversation!
     button_text: Contact Us
   

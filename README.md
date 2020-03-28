@@ -48,3 +48,7 @@ The content of this site is managed by NetlifyCMS. Visit https://{yoursite-domai
 
 # Static Directory
 1. `static/images` media gets automatically duplicated to the `public/images` directory, which is what's actually referenced for media/asset deployment.
+
+# Imagery
+1. Beware of having images that are much too large for performant web loading. Anything above 1MB should be consulted on; ideal range is 750kB and less.
+2. Using CDN's & getting Image links is a great way of handling images quickly & effectively without degrading image quality excessively.
