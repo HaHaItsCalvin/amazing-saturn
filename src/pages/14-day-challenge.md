@@ -42,6 +42,9 @@ sections:
     actions:
       - label: Let's Get Started!
         url: 'https://forms.gle/HX3oyCSjALujVgeMA'
+  - type: section_banner_image
+    section_id: partners
+    image: https://i.ibb.co/V9NHwmp/wellness-in-place-partners.jpg
 menus:
   main:
     title: 14 Day Challenge
