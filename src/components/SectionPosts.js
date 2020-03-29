@@ -3,7 +3,7 @@ import _ from 'lodash';
 import moment from 'moment-strftime';
 
 import styled from 'styled-components';
-import { htmlToReact, getPages, Link, safePrefix } from '../utils';
+import { getPages, Link, safePrefix } from '../utils';
 
 const TitleContainer = styled.div`
   padding-left: 12%;
@@ -16,13 +16,6 @@ const Title = styled.h1`
 const TitleIndex = {
   color: "purple",
 };
-
-const Text = styled.p`
-  padding-left: 30%;
-  font-size: 1.5vw;
-  font-weight: normal;
-  color: black;
-`;
 
 export default class SectionPosts extends React.Component {
     render() {

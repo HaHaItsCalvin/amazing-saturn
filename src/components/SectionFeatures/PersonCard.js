@@ -40,10 +40,9 @@ export default class PersonCard extends React.Component {
 
 class Person extends React.Component {
     render() {
-        const safePrefix = "/";
         return (
             <GridCard>
-                {this.props.image && <img src={this.props.image} width="65%"/>}
+                {this.props.image && <img src={this.props.image} width="65%" alt={this.props.name}/>}
 
                 <Name isBlackBackground = {this.props.isBlackBackground}>
                     {this.props.name}

@@ -2,8 +2,6 @@ import React from 'react';
 import _ from 'lodash';
 import styled from "styled-components";
 
-import { safePrefix, markdownify, Link } from '../utils';
-
 const PrimaryContainer = styled.div`
   margin-left: auto;
   margin-right: auto;

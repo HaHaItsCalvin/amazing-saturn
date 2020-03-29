@@ -62,19 +62,8 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-a:focus {
-  outline: thin dotted;
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
 }
 
 b,

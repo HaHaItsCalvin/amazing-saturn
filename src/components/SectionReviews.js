@@ -3,8 +3,6 @@ import _ from 'lodash';
 import Review from './Reviews';
 import styled from 'styled-components';
 
-import { htmlToReact } from '../utils';
-
 const Title = styled.h1`
   font-size: 5vw;
   color: ${props => props.isBlackBackground ?

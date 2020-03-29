@@ -1,17 +1,14 @@
 import React from 'react';
-import _ from 'lodash';
-
-import { Link } from '../utils';
 
 const fixedPosition = {
     position: 'fixed',
-    "padding-top": "28em",
-    "z-index": 9999,
+    paddingTop: "28em",
+    zIndex: 9999,
 };
 
 const textRotation = {
     transform: "rotate(270deg)",
-    "transform-origin": "-50% 75%",
+    transformOrigin: "-50% 75%",
 };
 
 const sideText = {

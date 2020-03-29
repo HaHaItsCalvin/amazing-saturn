@@ -2,9 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import styled from 'styled-components';
 
-import { htmlToReact, Link, safePrefix, markdownify} from '../utils';
-
-const purple = "#5c20bd";
+import { Link, safePrefix, markdownify} from '../utils';
 
 const ContentText = styled.p`
   font-size: 2.2vh;

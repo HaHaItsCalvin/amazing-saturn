@@ -2,7 +2,6 @@ import React from 'react';
 import _ from 'lodash';
 import styled from 'styled-components';
 import PersonCard from './SectionFeatures/PersonCard';
-import { htmlToReact, markdownify, safePrefix } from '../utils';
 
 
 const gridStyling = {
@@ -50,7 +49,7 @@ export default class SectionMeetTheTeam extends React.Component {
             {_.get(this.props, 'section.director') &&
               _.map(_.get(this.props, 'section.director'), (director, director_idx)=>(
                 <div style={centeredGrid}>
-                  <img src={_.get(director, 'image')} height="20%" width="70%"/>
+                  <img src={_.get(director, 'image')} height="20%" width="70%" alt={_.get(director, 'name')} />
                   <PersonCard
                     isBlackBackground={_.get(this.props, 'section.background-color') === 'black'}
                     name={_.get(director, 'name')}

@@ -51,7 +51,8 @@ export default class SectionHero extends React.Component {
           </HeroText>
 
           <VideoContainer>
-            <iframe width="100%" height="100%" src={_.get(this.props, 'section.video')} frameborder="0" allow="accelerometer; autoplay;picture-in-picture" allowfullscreen></iframe>
+            <iframe title = "Psypher Intro Video" width="100%" height="100%" src={_.get(this.props, 'section.video')} frameborder="0" allow="accelerometer; autoplay;picture-in-picture" allowfullscreen>
+            </iframe>
           </VideoContainer>
         </Section>
       </section>

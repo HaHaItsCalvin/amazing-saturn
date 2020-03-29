@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import styled from 'styled-components';
 
-import { safePrefix, markdownify, Link } from '../utils';
+import { safePrefix } from '../utils';
 
 const purple = "#5c20bd";
 
@@ -24,13 +24,13 @@ const Title = styled.h1`
 
 const fixedPosition = {
   position: 'fixed',
-  "padding-top": "28em",
-  "z-index": 9999,
+  paddingTop: "28em",
+  zIndex: 9999,
 };
 
 const textRotation = {
   transform: "rotate(270deg)",
-  "transform-origin": "-50% 75%",
+  transformOrigin: "-50% 75%",
 };
 
 const sideText = {

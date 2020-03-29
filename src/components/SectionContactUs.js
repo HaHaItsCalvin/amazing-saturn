@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import styled from "styled-components";
 
-import { safePrefix, markdownify, Link } from '../utils';
+import { markdownify } from '../utils';
 
 const PrimaryContainer = styled.div`
   margin-left: auto;
@@ -72,7 +72,7 @@ export default class SectionContactUs extends React.Component {
                                 <Grid>
                                     <ButtonText>{_.get(this.props, 'section.button_text') || ""}</ButtonText>
                                     <a href="/contact/">
-                                        <img style={imageSpacing} height="20px" width="50px" src="https://cdn3.iconfinder.com/data/icons/line/36/arrow_right-512.png" />
+                                        <img style={imageSpacing} alt= "Contact Us"height="20px" width="50px" src="https://cdn3.iconfinder.com/data/icons/line/36/arrow_right-512.png" />
                                     </a>
                                 </Grid>
                             </Message>

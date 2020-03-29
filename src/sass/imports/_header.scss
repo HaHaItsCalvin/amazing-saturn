@@ -59,18 +59,6 @@
     }
   }
 
-  a:not(.button) {
-    border: 0;
-    color: inherit;
-    display: inline-block;
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-      color: _palette(meta);
-    }
-  }
-
   .button {
     font-size: 16px;
     padding: 0.25em 15px;
@@ -164,11 +152,6 @@
       &.menu-button + .menu-button {
         margin-left: 0;
       }
-    }
-
-    a:not(.button) {
-      display: block;
-      padding: 0.83333rem 0;
     }
 
     .button {
