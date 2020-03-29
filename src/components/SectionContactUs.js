@@ -56,6 +56,10 @@ const imageSpacing = {
     "padding-bottom": "5vh",
     "padding-left": "1vw",
 };
+
+const link = {
+    color: "transparent",
+}
 export default class SectionContactUs extends React.Component {
     render() {
         return (
@@ -71,7 +75,7 @@ export default class SectionContactUs extends React.Component {
                                 </div>
                                 <Grid>
                                     <ButtonText>{_.get(this.props, 'section.button_text') || ""}</ButtonText>
-                                    <a href="/contact/">
+                                    <a href="/contact/" style={link}>
                                         <img style={imageSpacing} alt= "Contact Us"height="20px" width="50px" src="https://cdn3.iconfinder.com/data/icons/line/36/arrow_right-512.png" />
                                     </a>
                                 </Grid>
