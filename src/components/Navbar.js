@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 
 import { Link, safePrefix } from '../utils';
 
@@ -48,7 +49,19 @@ export default class Navbar extends React.Component {
 
                                         {_.map(_.get(this.props, 'pageContext.menus.main'), (item, item_idx) => (
                                             <li key={item_idx} className={'menu-item ' + ((_.get(this.props, 'pageContext.url') === _.get(item, 'url')) ? ' current-menu-item' : '')}>
-                                                <Link to={safePrefix(_.get(item, 'url'))}>
+                                                <Link to={safePrefix(_.get(item, 'url'))}
+                                                    onClick={e => {
+                                                        // Lets track that custom click
+                                                        trackCustomEvent({
+                                                            // string - required - The object that was interacted with (e.g.video)
+                                                            category: "Navbar Link",
+                                                            // string - required - Type of interaction (e.g. 'play')
+                                                            action: "Click",
+                                                            // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+                                                            label: `${_.get(item, 'title')}`,
+                                                        })
+                                                    }}
+                                                >
                                                     {
                                                         _.get(item, 'title')
                                                     }
