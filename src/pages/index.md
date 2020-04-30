@@ -6,7 +6,7 @@ sections:
     title1: STEP OUT.
     title2: SPEAK UP.
     content: >-
-      We are uplifting youth voices to change <br> the conversation around mental wellness.
+      We are uplifting youth voices to redefine <br> the conversation around mental wellness.
     image: images/psypher_la_logo_purple.png
     video: https://www.youtube.com/embed/yFQjM2kMWqY?modestbranding=1&rel=0
     # actions:
@@ -18,23 +18,23 @@ sections:
     title-index: "01"
     title: " - Our Story"
     content: >-
-      What started as a student organization at UCLA in 2017 has evolved into a nonprofit that is working 
-      to reach high school and college students throughout LA County. We have hosted over 60 workshops 
+      What started as a student organization at UCLA in 2017 has evolved into a nonprofit organization that strives 
+      to reach high school and college students throughout Los Angeles County. We have hosted over 60 workshops,
       serving more than 1,300 youth in our efforts to create a standard for wellness education that 
       can be introduced to students nationwide.
     bg: white
     featureslist:
       - title: "- Who We Are"
         title-index: "02"
+        # ahref Style once I get Voices of 1000 Tab up: border-bottom: 2px solid purple; 
         content: >-
-          Psypher facilitates 
-          <span style="color: purple;"> two-part workshops</span>
-          that engage students in 
-          <span style="color: purple;"> youth-centered discussions about wellness </span>
-          and provide an 
-          <span style="color: purple;">expressive outlet through urban dance.</span>
-          Our dynamic team of youth advocates, mental health professionals, and urban dancers create workshops around
-          topics that are informed by local youth. 
+          Psypher blends
+          <span style="color: purple;"> community-based research </span> 
+          and 
+          <a href="/14-day-challenge" style='color:purple;'>
+            emerging technologies
+          </a>
+          to develop youth-centered wellness programs that embrace the expressive arts.
         image: images/psypher_la_logo_purple.png
         actions:
           - label: Learn More

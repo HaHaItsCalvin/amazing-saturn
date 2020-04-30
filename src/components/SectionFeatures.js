@@ -16,6 +16,7 @@ const TitleIndex = {
 
 const Text = styled.p`
   padding-left: 30%;
+  padding-top: 5vh;
   font-size: 1.5vw;
   font-weight: normal;
   color: black;
