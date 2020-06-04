@@ -14,7 +14,6 @@ const ReviewText = styled.p`
 const Header = styled.h3`
     color: ${purple};
     padding-top: 5vh;
-    font-size: 
 `;
 
 const Title = styled.h1`
@@ -41,21 +40,23 @@ const sideText = {
 };
 
 export default class SectionContent extends React.Component {
-    render() {
-        return (
-            <section id={_.get(this.props, 'section.section_id')} className={'block text-block bg-' + _.get(this.props, 'section.bg') + ' outer'}>
-                <div className="grid">
-                  {_.get(this.props, 'section.image') && 
-                  <div className="cell block-preview">
-                    <img src={safePrefix(_.get(this.props, 'section.image2'))} alt={_.get(this.props, 'section.title')} />
-                  </div>
-                }
-                {_.get(this.props, 'section.image') &&
-                  <div className="cell block-preview">
-                    <img src={safePrefix(_.get(this.props, 'section.image'))} alt={_.get(this.props, 'section.title')} />
-                  </div>
-                }
-                  {/* <div className="cell block-content">
+  render() {
+    return (
+      <section id={_.get(this.props, 'section.section_id')} className={'block text-block bg-' + _.get(this.props, 'section.bg') + ' outer'}>
+        <div className="grid">
+          {_.get(this.props, 'section.image2') &&
+            <div className="cell block-preview">
+              <a href={_.get(this.props, 'section.image2_link')} >
+                <img src={safePrefix(_.get(this.props, 'section.image2'))} alt={_.get(this.props, 'section.title')} />
+              </a>
+            </div>
+          }
+          {_.get(this.props, 'section.image') &&
+            <div className="cell block-preview">
+              <img src={safePrefix(_.get(this.props, 'section.image'))} alt={_.get(this.props, 'section.title')} />
+            </div>
+          }
+          {/* <div className="cell block-content">
                       {_.get(this.props, 'section.header') &&
                         <Header>{_.get(this.props, 'section.header')}</Header>
                       }
@@ -73,8 +74,8 @@ export default class SectionContent extends React.Component {
                       </p>
                       }
                   </div> */}
-                </div>
-            </section>
-        );
-    }
+        </div>
+      </section>
+    );
+  }
 }
