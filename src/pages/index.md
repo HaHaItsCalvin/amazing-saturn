@@ -63,7 +63,7 @@ sections:
 
         subtitle2: "Part 2: Dance"
         content2: >-
-          Every workshop closes with a specialized urban dance session where students groove,
+          Every workshop closes with a specialize dance session where students groove,
           learn dance pieces, and have fun to reinforce
           the lessons. No dance experience required!
         image2: images/How_It_Works/step_out.jpg
